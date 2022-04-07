@@ -4,7 +4,8 @@ class AlbumWidget extends StatelessWidget {
   final int id;
   final String title;
 
-  const AlbumWidget({required this.id, required this.title,  Key? key}) : super(key: key);
+  const AlbumWidget({required this.id, required this.title, Key? key})
+      : super(key: key);
 
   @override
   Widget build(BuildContext context) {
